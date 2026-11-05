@@ -12,7 +12,7 @@ try {
     if (match && process.env[match[1]] === undefined) process.env[match[1]] = match[2].replace(/^['"]|['"]$/g, '');
   });
 } catch (error) { if (error.code !== 'ENOENT') throw error; }
-const publicPort = Number(process.env.PORT || 3000);
+const publicPort = Number(process.env.PORT);
 const phpPort = publicPort;
 const app = express();
 app.use(express.urlencoded({ extended: false, limit: '20kb' }));
