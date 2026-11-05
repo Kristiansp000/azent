@@ -13,7 +13,7 @@ try {
   });
 } catch (error) { if (error.code !== 'ENOENT') throw error; }
 const publicPort = Number(process.env.PORT || 3000);
-const phpPort = publicPort + 1;
+const phpPort = publicPort;
 const app = express();
 app.use(express.urlencoded({ extended: false, limit: '20kb' }));
 
