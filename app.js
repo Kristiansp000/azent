@@ -15,10 +15,11 @@ try {
 
 const app = express();
 const root = __dirname;
+const publicRoot = path.join(root, 'public');
 
 app.use(express.urlencoded({ extended: false, limit: '20kb' }));
-app.use(express.static(root));
-app.get('/', (req, res) => res.sendFile(path.join(root, 'index.html')));
+app.use(express.static(publicRoot));
+app.get('/', (req, res) => res.sendFile(path.join(publicRoot, 'index.html')));
 
 const smtpConfigured = Boolean(process.env.SMTP_USER && process.env.SMTP_PASS && process.env.INQUIRY_TO);
 const mailer = smtpConfigured ? nodemailer.createTransport({
