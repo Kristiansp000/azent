@@ -1,6 +1,7 @@
 const express = require('express');
 const nodemailer = require('nodemailer');
 const fs = require('fs');
+const path = require('path');
 
 try {
   const env = fs.readFileSync(`${__dirname}/.env`, 'utf8');
@@ -17,6 +18,7 @@ const root = __dirname;
 
 app.use(express.urlencoded({ extended: false, limit: '20kb' }));
 app.use(express.static(root));
+app.get('/', (req, res) => res.sendFile(path.join(root, 'index.html')));
 
 const smtpConfigured = Boolean(process.env.SMTP_USER && process.env.SMTP_PASS && process.env.INQUIRY_TO);
 const mailer = smtpConfigured ? nodemailer.createTransport({
