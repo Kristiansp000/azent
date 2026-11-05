@@ -1,0 +1,16 @@
+{
+  "projectId": "prj_dXkpzvRlAyKKD33cBThnkpRwqjbR",
+  "orgId": "team_s06MbVosydFJCfYSEJhISDMa",
+  "projectName": "azent",
+  "settings": {
+    "createdAt": 1793859812808,
+    "framework": "express",
+    "devCommand": null,
+    "installCommand": null,
+    "buildCommand": null,
+    "outputDirectory": null,
+    "rootDirectory": null,
+    "directoryListing": false,
+    "nodeVersion": "26.x"
+  }
+}

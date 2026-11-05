@@ -2,21 +2,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
     "api/send-email.js": {
-      "maxDuration": 10,
-      "includeFiles": [
-        "index.html",
-        "style.css",
-        "script.js",
-        "asset/**"
-      ]
-    },
-    "server.js": {
-      "includeFiles": [
-        "index.html",
-        "style.css",
-        "script.js",
-        "asset/**"
-      ]
+      "maxDuration": 10
     }
   }
 }
