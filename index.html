@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portofolio AZent — pianis dan keyboardis untuk panggung, event, dan momen spesial.">
+    <title>AZent — Piano in Motion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="noise"></div>
+    <header class="site-header">
+        <a class="brand" href="#top" aria-label="Azent home"><span>AZ</span>ENT</a>
+        <nav class="nav" aria-label="Navigasi utama">
+            <a href="#about">Tentang</a><a href="#services">Format</a><a href="#contact">Kontak</a>
+        </nav>
+        <a class="header-cta" href="#contact">Book a session <span>↗</span></a>
+    </header>
+
+    <main id="top">
+        <section class="hero section-pad">
+            <div class="hero-copy reveal">
+                <p class="eyebrow"><i></i> Pianis · Keyboardis · Live Performer</p>
+                <h1>Let the music<br><em>move</em> you.</h1>
+                <p class="hero-intro">Menciptakan suasana, mengisi ruang, dan membuat setiap momen terdengar lebih berarti.</p>
+                <div class="hero-actions"><a class="button button-dark" href="#contact">Mulai kolaborasi <span>↗</span></a><a class="text-link" href="#services">Lihat format <span>↓</span></a></div>
+            </div>
+            <div class="hero-visual reveal reveal-delay">
+                <div class="hero-image"><img src="asset/img/IMG_2387.JPG" alt="AZent sedang memainkan keyboard di sebuah venue" /></div>
+                <div class="image-caption"><span>Live session / 2024</span><span>Jakarta, ID</span></div>
+                <div class="orbit-note note-one">♪</div><div class="orbit-note note-two">♫</div>
+            </div>
+        </section>
+
+        <section id="about" class="about section-pad">
+            <div class="section-label">01 / About</div>
+            <div class="about-grid">
+                <h2>Every room has<br><em>its own rhythm.</em></h2>
+                <div class="about-text"><p>AZ Entertaiment adalah pianis dan keyboardis yang percaya bahwa musik bukan hanya untuk didengar — tetapi untuk dirasakan.</p><p>Dari aransemen yang lembut hingga energi full band, setiap penampilan dirancang untuk menyatu dengan cerita dan karakter acara Anda.</p><a class="text-link" href="#contact">Kenalan lebih jauh <span>↗</span></a></div>
+            </div>
+            <div class="quote">“Music is the space between the notes.” <small>— Claude Debussy</small></div>
+        </section>
+
+        <section id="services" class="services section-pad">
+            <div class="section-label">02 / Formats</div>
+            <div class="services-head"><h2>Choose your<br><em>sound.</em></h2><p>Format yang fleksibel untuk membawa atmosfer yang tepat ke setiap acara.</p></div>
+            <div class="service-list">
+                                <article class="service-row"><span class="service-number">01</span><h3>Akustik Band</h3><p>Format intim dengan nuansa hangat untuk intimate dinner, lounge, dan acara private.</p><span class="service-arrow">↗</span></article>
+                                <article class="service-row"><span class="service-number">02</span><h3>Middle Band</h3><p>Formasi fleksibel dengan energi yang pas untuk wedding, corporate, dan gathering.</p><span class="service-arrow">↗</span></article>
+                                <article class="service-row"><span class="service-number">03</span><h3>Semu Band</h3><p>Pertunjukan penuh karakter untuk venue yang ingin terasa hidup dari awal hingga akhir.</p><span class="service-arrow">↗</span></article>
+                                <article class="service-row"><span class="service-number">04</span><h3>Full Band</h3><p>Sound yang lengkap dan dinamis untuk panggung besar, festival, dan perayaan spesial.</p><span class="service-arrow">↗</span></article>
+                                <article class="service-row"><span class="service-number">05</span><h3>Solo Pianis / Keyboardis</h3><p>Melodi yang personal untuk ceremony, cocktail hour, hotel, dan momen yang lebih intimate.</p><span class="service-arrow">↗</span></article>
+                            </div>
+        </section>
+
+        <section class="visual-break section-pad"><div class="visual-card"><img src="asset/img/piano.jpeg" alt="Tuts piano dalam pencahayaan hangat"><div class="visual-overlay"><span>Sound is a feeling</span><strong>Play it<br><em>your way.</em></strong></div></div></section>
+
+        <section id="contact" class="contact section-pad">
+            <div class="section-label">03 / Contact</div>
+            <div class="contact-grid"><div><h2>Let’s make<br><em>something</em><br>beautiful.</h2><p class="contact-note">Ceritakan sedikit tentang acara atau project Anda. Kami akan kembali dengan format dan penawaran yang paling sesuai.</p></div>
+            <div class="form-wrap">
+                                <form method="post" action="/api/send-email"><label>Nama<input type="text" name="name" placeholder="Nama Anda" value="" required></label><label>Email<input type="email" name="email" placeholder="you@email.com" value="" required></label><label>Ceritakan tentang project Anda<textarea name="message" rows="4" placeholder="Tanggal acara, venue, format musik..." required></textarea></label><button class="button button-dark" type="submit">Kirim inquiry <span>↗</span></button></form>
+            </div></div>
+        </section>
+    </main>
+    <footer class="footer section-pad"><a class="brand" href="#top"><span>AZ</span>ent</a><p>© 2026 AZent. Made for the moments that matter.</p><div class="socials"><a href="https://www.instagram.com/aziz_puspito?dlrf=MThkd3BxNGE1eXJ5dg==">Instagram</a></div></footer>
+    <div class="email-modal" id="email-modal" role="dialog" aria-modal="true" aria-labelledby="email-modal-title" hidden>
+        <div class="email-modal-card">
+            <div class="email-modal-icon" aria-hidden="true"><span></span></div>
+            <h2 id="email-modal-title">Mengirim inquiry</h2>
+            <p id="email-modal-text">Mohon tunggu, email sedang diproses.</p>
+            <button class="button button-dark email-modal-close" type="button" hidden>Tutup</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
