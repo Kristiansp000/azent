@@ -93,9 +93,9 @@ body {
     padding-bottom: 5px
 }
 
-.header-cta span,
-.button span,
-.text-link span {
+.header-cta i,
+.button i,
+.text-link i {
     font-size: 16px;
     margin-left: 8px
 }
