@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">AZ Entertaiment logo</title>
+  <desc id="desc">Interlocked gold A and Z monogram on a black background.</desc>
+  <defs>
+    <linearGradient id="gold" x1="24" y1="28" x2="218" y2="216" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff1ae"/>
+      <stop offset=".28" stop-color="#c89432"/>
+      <stop offset=".52" stop-color="#ffe28a"/>
+      <stop offset=".78" stop-color="#9b681d"/>
+      <stop offset="1" stop-color="#f5cf68"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" fill="#050505"/>
+  <g fill="none" stroke="url(#gold)" stroke-linecap="square" stroke-linejoin="miter">
+    <path stroke-width="10" d="M42 202 105 37l63 165M66 143h78"/>
+    <path stroke-width="11" d="M112 39h80l-87 162h88"/>
+  </g>
+</svg>

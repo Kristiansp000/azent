@@ -47,19 +47,19 @@ body {
 }
 
 .brand {
+    display: inline-flex;
+    align-items: center;
     font-weight: 700;
-    font-size: 19px;
     letter-spacing: .14em;
     color: var(--ink);
     text-decoration: none
 }
 
-.brand span {
-    color: var(--accent);
-    font-family: var(--serif);
-    font-size: 28px;
-    font-style: italic;
-    margin-right: 2px
+.brand img {
+    display: block;
+    width: 48px;
+    height: 48px;
+    object-fit: contain
 }
 
 .nav {
