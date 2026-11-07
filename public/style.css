@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap');
 
 :root {
-    --ink: #fff;
-    --muted: #e8dada;
-    --paper: #3b0000;
-    --line: #752b2b;
-    --accent: #fff;
+    --ink: #f5f5f5;
+    --muted: #969696;
+    --paper: #080808;
+    --line: #292929;
+    --accent: #800000;
     --serif: 'Playfair Display', Georgia, serif;
     --sans: 'DM Sans', Arial, sans-serif
 }
@@ -176,12 +176,12 @@ h2 em,
 }
 
 .button-dark {
-    color: var(--paper);
+    color: #fff;
     background: var(--accent)
 }
 
 .button-dark:hover {
-    background: #e8dada;
+    background: #5c0000;
     transform: translateY(-2px)
 }
 
@@ -192,7 +192,7 @@ h2 em,
 .hero-image {
     height: 535px;
     overflow: hidden;
-    background: #4a0808
+    background: #111
 }
 
 .hero-image img {
@@ -239,7 +239,7 @@ h2 em,
 }
 
 .about {
-    background: #4a0808;
+    background: #111;
     padding-top: 75px;
     padding-bottom: 85px
 }
@@ -363,7 +363,7 @@ h2 em,
     height: 515px;
     position: relative;
     overflow: hidden;
-    background: #4a0808
+    background: #111
 }
 
 .visual-card img {
@@ -407,7 +407,7 @@ h2 em,
 }
 
 .contact {
-    background: #320000;
+    background: #0d0d0d;
     padding-top: 90px;
     padding-bottom: 110px
 }
@@ -436,7 +436,7 @@ h2 em,
 }
 
 .form-message.error {
-    color: #ffd6d6
+    color: #6b1f1f
 }
 
 .button:disabled {
@@ -463,12 +463,12 @@ h2 em,
     width: min(100%, 390px);
     padding: 42px 34px 34px;
     text-align: center;
-    background: #4a0808;
+    background: #151515;
     box-shadow: 0 20px 60px rgba(0, 0, 0, .2)
 }
 
 .email-modal-card .button-dark {
-    color: var(--paper)
+    color: #fff
 }
 
 .email-modal-card h2 {
@@ -506,13 +506,13 @@ h2 em,
 
 .email-modal.error .email-modal-icon:after {
     content: '!';
-    color: #ffd6d6;
+    color: #6b1f1f;
     font-size: 25px;
     line-height: 38px
 }
 
 .email-modal.error .email-modal-icon {
-    border-color: #ffd6d6
+    border-color: #6b1f1f
 }
 
 @keyframes email-spin {
@@ -520,7 +520,7 @@ h2 em,
 }
 
 .form-message.success {
-    color: #d6f5df
+    color: #3f6846
 }
 
 form label {
@@ -536,7 +536,7 @@ textarea {
     display: block;
     width: 100%;
     border: 0;
-    border-bottom: 1px solid #b87575;
+    border-bottom: 1px solid #444;
     background: transparent;
     padding: 12px 0;
     color: var(--ink);
@@ -559,7 +559,7 @@ form .button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #fff;
+    background: var(--ink);
     color: var(--paper);
     padding-top: 28px;
     padding-bottom: 28px
@@ -571,7 +571,7 @@ form .button {
 
 .footer p {
     font-size: 11px;
-    color: #6b3030
+    color: #888
 }
 
 .socials {
