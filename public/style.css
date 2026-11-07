@@ -5,7 +5,7 @@
     --muted: #969696;
     --paper: #080808;
     --line: #292929;
-    --accent: #e21d2f;
+    --accent: #800000;
     --serif: 'Playfair Display', Georgia, serif;
     --sans: 'DM Sans', Arial, sans-serif
 }
@@ -181,7 +181,7 @@ h2 em,
 }
 
 .button-dark:hover {
-    background: #b91525;
+    background: #5c0000;
     transform: translateY(-2px)
 }
 
@@ -436,7 +436,7 @@ h2 em,
 }
 
 .form-message.error {
-    color: #a33b2b
+    color: #6b1f1f
 }
 
 .button:disabled {
@@ -506,13 +506,13 @@ h2 em,
 
 .email-modal.error .email-modal-icon:after {
     content: '!';
-    color: #a33b2b;
+    color: #6b1f1f;
     font-size: 25px;
     line-height: 38px
 }
 
 .email-modal.error .email-modal-icon {
-    border-color: #a33b2b
+    border-color: #6b1f1f
 }
 
 @keyframes email-spin {
